@@ -1,0 +1,40 @@
+.keyboard {
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  gap: .2em;
+
+  div {
+    border: .5px solid;
+    width: 2em;
+    height: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: .5em;
+    opacity: 0.5;
+    transition:  all ease-out;
+    font-weight: lighter;
+  }
+
+  .current {
+    background-color: #61dafb;
+    color: #3c424d;
+    opacity: 1;
+    transform: scale(1.1);
+    filter: drop-shadow(5px 5px 3px rgba(0, 0, 0, 0.514));
+  }
+
+  .spaceBar {
+    width: 13.3em;
+    margin-left: 3em;
+  }
+}
+
+.second {
+  margin-left: 1em;
+}
+
+.third {
+  margin-left: -1em;
+}

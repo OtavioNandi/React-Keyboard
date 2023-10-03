@@ -1,0 +1,61 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	gap: .5em;
+	align-items: center;
+
+	p {
+		font-size: 1em;
+		margin: 0;
+	}
+
+	.textButton {
+		display: flex;
+		gap: .5em;
+	}
+	
+	.paragraph {
+		color: #61dafb;
+	}
+
+	textarea {
+		width: 20em;
+		padding: .5em 0;
+		border-radius: 5em;
+		resize: none;
+		background-color: #3c424d;
+		border: none;
+		color: white;
+		font-size: .5em;
+		overflow: hidden;
+		text-align: center;
+		outline: 0;
+
+		&:focus {
+			background-color: #545c6b;
+		}
+	}
+
+	button {
+		width: 10em;
+		border: none;
+		border-radius: 5em;
+		padding: 1em 1em ;
+		color: white;
+		font-size: .5em;
+		background-color: #3c424d;
+		transition: all .3s;
+		cursor: pointer;
+
+		&:hover {
+			transform: scale(1.1);
+			background-color: #c0c9d8;
+			color: #3c424d;
+		}
+	}
+	
+	.botao:first-of-type {
+		background-color: #c0c9d8;
+		color: #3c424d;
+	}
+}
