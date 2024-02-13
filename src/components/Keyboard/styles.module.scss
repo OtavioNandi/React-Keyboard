@@ -5,14 +5,13 @@
   gap: .2em;
 
   div {
-    border-radius: 67px;
-    background: linear-gradient(145deg, #f0f0f0, #cacaca);
-    box-shadow:  5px 5px 10px #aaaaaa, -5px -5px 10px #ffffff;
+    border: .5px solid;
     width: 2em;
     height: 2em;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    border-radius: .5em;
     opacity: 0.5;
     transition:  all ease-out;
     font-weight: lighter;
